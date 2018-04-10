@@ -1,6 +1,6 @@
 # 端口设置
   server:
-    port: 1115
+    port: 9995
   # 应用名称设置
   spring:
     application:
