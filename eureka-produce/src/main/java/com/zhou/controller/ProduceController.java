@@ -24,4 +24,21 @@ public class ProduceController
         return "当前eureka提供者端口号port:" + instance.getPort();
     }
 
+    @RequestMapping("/getParam")
+    public String getParam(String name) {
+        ServiceInstance instance = client.getLocalServiceInstance();
+
+        return "当前eureka提供者端口号port:" + instance.getPort()+"===========feign调用eureka请求参数为"+name;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }

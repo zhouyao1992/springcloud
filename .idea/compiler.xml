@@ -25,15 +25,20 @@
         <module name="eureka-produce" />
         <module name="eureka-produce (1) (com.example)" />
         <module name="eureka-server" />
+        <module name="feign-consumer" />
         <module name="ribbon-consumer" />
+        <module name="zuui-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="eureka-produce" target="1.8" />
       <module name="eureka-produce (1) (com.example)" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
       <module name="ribbon-consumer" target="1.8" />
       <module name="springcloud" target="1.5" />
+      <module name="zuui-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

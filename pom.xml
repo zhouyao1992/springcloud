@@ -10,9 +10,18 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
+       <!-- eureka服务注册中心-->
         <module>eureka-server</module>
+       <!-- eureka服务提供者-->
         <module>eureka-produce</module>
+       <!--  ribbon消费者-->
         <module>ribbon-consumer</module>
+       <!-- feign消费者-->
+        <module>feign-consumer</module>
+       <!-- Zuul（路由配置）-->
+        <module>zuui-server</module>
+
+
     </modules>
 
 
