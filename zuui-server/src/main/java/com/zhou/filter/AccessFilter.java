@@ -5,6 +5,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import javax.servlet.http.HttpServletRequest;
+
+/**
+ * Zuul路由配置、过滤器
+ */
 @Component
 public class AccessFilter extends ZuulFilter {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
