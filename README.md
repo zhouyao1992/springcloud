@@ -1,4 +1,4 @@
-跟我一起学习springcloud吧demo仅供参考
+跟我一起学习springcloud吧！demo仅供参考
     需弄清以下核心组件
     
     1.服务注册中心eureka
