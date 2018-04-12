@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.annotation.Resource;
 
 /**
+ * eureka服务提供者
  * Created by zhouyao on 2018/4/9.
  */
 @RestController
