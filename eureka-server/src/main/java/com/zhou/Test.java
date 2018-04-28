@@ -6,7 +6,7 @@ import java.awt.event.*;
 /**
  * Created by zhouyao on 2018/4/8.
  */
-public class Test1
+public class Test
 {
 
 
