@@ -29,7 +29,7 @@ proguard/
 .idea/
 
 *.class
-
+*.exe
 # gwt caches and compiled units #
 war/gwt_bree/
 gwt-unitCache/
